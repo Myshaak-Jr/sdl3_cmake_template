@@ -1,0 +1,44 @@
+# build outputs
+out/
+
+# cmake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+build.ninja
+Makefile
+.ninja_deps
+.ninja_log
+compile_commands.json
+
+# binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.pdb
+*.o
+*.obj
+
+# vcpkg artifacts
+vcpkg_installed/
+vcpkg/buildtrees/
+vcpkg/packages/
+vcpkg/downloads/
+
+# editors
+.vscode/
+.idea/
+.vs/
+*.swp
+*.swo
+.obsidian/
+
+# misc
+.DS_Store
+Thumbs.db
+
+# cache
+.cache/

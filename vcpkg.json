@@ -1,0 +1,9 @@
+{
+    "name": "my-app",
+    "version-string": "0.1.0",
+    "dependencies": [
+        "sdl3",
+        "sdl3-shadercross"
+    ],
+    "builtin-baseline": "0320e9d93bb7f0b3216322ec50688f190655eb9b"
+}

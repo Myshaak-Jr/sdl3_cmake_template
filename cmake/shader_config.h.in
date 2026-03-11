@@ -1,0 +1,25 @@
+/*
+sdl3_cmake_template
+Copyright (C) 2026 Matej Smetana
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see <https://www.gnu.org/licenses/>.
+*/
+
+#cmakedefine SHADERS_BUILD_MSL
+#cmakedefine SHADERS_BUILD_DXIL
+#cmakedefine SHADERS_BUILD_SPIRV
+
+#define SHADERS_DIR_SPIRV "@SHADERS_DIR_SPIRV@"
+#define SHADERS_DIR_DXIL "@SHADERS_DIR_DXIL@"
+#define SHADERS_DIR_MSL "@SHADERS_DIR_MSL@"
