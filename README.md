@@ -26,6 +26,8 @@ The template structure looks like this:
 
 All the source files should be in `src/` and all headers in `include/`. The `cmake/` directory contains the shader config file which defines which backends were build. In shader source files are in the `shaders/` directory.
 
+In the shader.c is a function that will open the correct shader binary.
+
 ## Hello triangle
 This template displays the triangle by default. It is based on [https://github.com/mohiji/gpu-by-example](https://github.com/mohiji/gpu-by-example).
 
